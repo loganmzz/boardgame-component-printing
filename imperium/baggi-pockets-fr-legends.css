@@ -1,4 +1,5 @@
 :root {
+  --print-margin: 7mm;
   --line-width: 0.1mm;
   --line-color: #EEEEEE;
 }
@@ -204,20 +205,11 @@ div {
 .row-1 {
   border-top: var(--line-width) dotted var(--line-color);
 }
-.row-1.col-4 {
-  border-bottom: none;
-}
-.row-2.col-3 {
-  border-right: none;
-}
-.row-2.col-4 {
-  border: none;
-}
 
 @media print {
   @page {
     size: a4 landscape;
-    margin: 0cm;
+    margin: var(--print-margin);
   }
 }
 

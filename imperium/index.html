@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Boardgame Component Printing: Imperium</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../main.css">
+</head>
+<body>
+  <main>
+    <h1>Boardgame Component Printing: Imperium</h1>
+    <p><a href="https://github.com/loganmzz/boardgame-component-printing/tree/main/imperium">Sources</a></p>
+    <div>
+
+      <hr/>
+      <h2>Components:</h2>
+      <ul>
+        <li><a href="#bot-cards">Bot cards</a></li>
+        <li><a href="#baggi-pockets">Baggi pockets</a></li>
+      </ul>
+
+      <hr/>
+      <h2 id="bot-cards">Bot cards</h2>
+      <p>Files:</p>
+      <ul>
+        <li><a href="bot-cards-fr-classics.html"><span class="fi fi-fr"></span> Antiques</a></li>
+        <li><a href="bot-cards-fr-legends.html"><span class="fi fi-fr"></span> Légendes</a></li>
+      </ul>
+
+      <div class="instructions">
+        <h3><span class="fi fi-fr"></span> Instructions</h3>
+        <p>
+          Imprimez les pages en recto-verso.<br/>
+          Une bordure légère délimite les bords des cartes. Toutes les cartes sont de la même taille quelque soit la taille de la table.<br/>
+          Il est possible de personnaliser en modifiant les variables en entête du fichier CSS <a href="https://github.com/loganmzz/boardgame-component-printing/blob/main/imperium/bot-cards.css">bot-cards.css</a>&nbsp;:
+        </p>
+        <ul>
+          <li><code>--line-width</code>&nbsp;: épaisseur des contours des cartes</li>
+          <li><code>--line-color</code>&nbsp;: couleur des contours des cartes</li>
+        </ul>
+      </div>
+
+      <hr/>
+      <h2 id="baggi-pockets">Baggi pockets</h2>
+      <p>Files:</p>
+      <ul>
+        <li><a href="baggi-pockets-fr-legends.html"><span class="fi fi-fr"></span> Légendes</a></li>
+      </ul>
+
+      <div class="instructions">
+        <h3><span class="fi fi-fr"></span> Instructions</h3>
+        <p><em>Note&nbsp;: par défaut, le patron imprime l'étiquette sur le recto. Les plis se retrouvent sur le haut et "gêne" lorsque pour insérer les étuis entre eux ; les plis s'insérant les uns dans les autres.</em></p>
+        <p>
+          Imprimez chaque page sur une feuille séparée.<br/>
+          Les instructions de pliage sont disponibles ici : <a href="https://www.youtube.com/watch?v=2_IyDrvHPIw">Youtube - Les ludistes origamistes - [EN] Tutorial #4 : Pocket card holders (2 techniques)</a>. Les patrons contiennent des repères pour le pliage.<br/>
+          Il est possible de personnaliser en modifiant les variables en entête du fichier CSS &nbsp;:
+        </p>
+        <ul>
+          <li><code>--print-margin</code> (global)&nbsp;: marge d'impression. Je conseille une marge à 0 pour limiter à deux découpes et garder deux côtés bien droits.</li>
+          <li><code>--line-width</code> (global)&nbsp;: épaisseur des traits des patrons</li>
+          <li><code>--line-color</code> (global)&nbsp;: couleur des traits des patrons</li>
+          <li><code>--dim-width</code> (deck)&nbsp;: largeur du deck (également la hauteur de l'étui car le patron est carré)</li>
+          <li><code>--dim-depth</code> (deck)&nbsp;: épaisseur du deck</li>
+          <li><code>--title-name</code> (deck)&nbsp;: titre du deck (étiquette)</li>
+          <li><code>--title-complexity</code> (deck)&nbsp;: complexité du deck (étiquette)</li>
+          <li><code>--title-name-bg</code> (deck)&nbsp;: couleur de fond de l'étiquette pour le titre (étiquette)</li>
+          <li><code>--title-name-fg</code> (deck)&nbsp;: couleur du texte de l'étiquette pour le titre (étiquette)</li>
+          <li><code>--title-complexity-bg</code> (deck)&nbsp;: couleur de fond de l'étiquette pour la complexité (étiquette)</li>
+          <li><code>--title-complexity-fg</code> (deck)&nbsp;: couleur du texte de l'étiquette pour la complexité (étiquette)</li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>

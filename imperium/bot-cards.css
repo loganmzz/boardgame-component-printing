@@ -1,0 +1,55 @@
+:root {
+  --line-width: 0.1mm;
+  --line-color: #EEEEEE;
+}
+
+@media screen {
+  :root {
+    --line-color: #000000;
+  }
+
+  .page {
+    outline: var(--line-width) solid var(--line-color);
+    padding: 1em;
+    margin: 5em 1em;
+  }
+}
+
+@media print {
+  @page {
+    size: a4 landscape;
+    margin: 7mm;
+  }
+
+  .page {
+    page-break-after: always;
+    break-after: page;
+  }
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.page {
+  display: grid;
+  grid: 1fr 1fr / 1fr 1fr;
+  gap: 3mm;
+  height: 100%;
+}
+
+.page:nth-child(2n) {
+  direction: rtl;
+}
+
+.frame {
+  border: var(--line-width) dotted var(--line-color);
+  padding: 3mm;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}

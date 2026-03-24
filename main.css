@@ -1,0 +1,25 @@
+@import url("https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.3.2/css/flag-icons.min.css");
+
+body {
+  height: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  max-width: 768px;
+  margin: 0 auto;
+  height: 100%;
+  padding: 2rem;
+}
+
+h1 {
+  align-self: center;
+}
+
+.instructions {
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
