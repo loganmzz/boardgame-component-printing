@@ -1,0 +1,132 @@
+.icon {
+  vertical-align: middle;
+  height: 1.2em;
+}
+
+.i-header.i-attack {
+  content: url(./assets/icon-header-attack.png);
+}
+.i-header.i-permanent {
+  content: url(./assets/icon-header-permanent.png);
+}
+.i-header.i-trade {
+  content: url(./assets/icon-header-trade.png);
+}
+
+.i-location.i-accession {
+  content: url(./assets/icon-location-accession.png);
+}
+.i-location.i-chaos {
+  content: url(./assets/icon-location-chaos.png);
+}
+.i-location.i-development {
+  content: url(./assets/icon-location-development.png);
+}
+.i-location.i-inplay {
+  content: url(./assets/icon-location-inplay.png);
+}
+.i-location.i-nation {
+  content: url(./assets/icon-location-nation.png);
+}
+.i-location.i-supply {
+  content: url(./assets/icon-location-supply.png);
+}
+
+.i-state.i-barbarian {
+  content: url(./assets/icon-state-barbarian.png);
+}
+.i-state.i-empire {
+  content: url(./assets/icon-state-empire.png);
+}
+
+.i-suit.i-civilised {
+  content: url(./assets/icon-suit-civilised.png);
+}
+.i-suit.i-fame {
+  content: url(./assets/icon-suit-fame.png);
+}
+.i-suit.i-gadget {
+  content: url(./assets/icon-suit-gadget.png);
+}
+.i-suit.i-power {
+  content: url(./assets/icon-suit-power.png);
+}
+.i-suit.i-region {
+  content: url(./assets/icon-suit-region.png);
+}
+.i-suit.i-trade-route {
+  content: url(./assets/icon-suit-trade-route.png);
+}
+.i-suit.i-tributary {
+  content: url(./assets/icon-suit-tributary.png);
+}
+.i-suit.i-uncivilised {
+  content: url(./assets/icon-suit-uncivilised.png);
+}
+.i-suit.i-unrest {
+  content: url(./assets/icon-suit-unrest.png);
+}
+
+.i-symbol.i-attack {
+  content: url(./assets/icon-symbol-attack.png);
+}
+.i-symbol.i-trade {
+  content: url(./assets/icon-symbol-trade.png);
+}
+
+.i-token {
+  height: 1.6em;
+  margin: -0.4mm;
+}
+.i-token.i-action {
+  content: url(./assets/icon-token-action.png);
+}
+.i-token.i-exhaust {
+  content: url(./assets/icon-token-exhaust.png);
+}
+.i-token.i-goods {
+  content: url(./assets/icon-token-goods.png);
+}
+.i-token.i-people {
+  content: url(./assets/icon-token-people.png);
+}
+.i-token.i-progress {
+  content: url(./assets/icon-token-progress.png);
+}
+
+.i-type.i-city {
+  content: url(./assets/icon-type-city.png);
+}
+.i-type.i-fertile {
+  content: url(./assets/icon-type-fertile.png);
+}
+.i-type.i-hunt {
+  content: url(./assets/icon-type-hunt.png);
+}
+.i-type.i-knight {
+  content: url(./assets/icon-type-knight.png);
+}
+.i-type.i-mask {
+  content: url(./assets/icon-type-mask.png);
+}
+.i-type.i-merchant {
+  content: url(./assets/icon-type-merchant.png);
+}
+.i-type.i-metropolis {
+  content: url(./assets/icon-type-metropolis.png);
+}
+.i-type.i-miracle {
+  content: url(./assets/icon-type-miracle.png);
+}
+.i-type.i-ocean {
+  content: url(./assets/icon-type-ocean.png);
+}
+.i-type.i-production {
+  content: url(./assets/icon-type-production.png);
+}
+.i-type.i-river {
+  content: url(./assets/icon-type-river.png);
+}
+.i-type.i-scroll {
+  content: url(./assets/icon-type-scroll.png);
+}

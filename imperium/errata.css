@@ -1,0 +1,77 @@
+@media screen {
+  :root {
+    --line-color: #000000;
+    --line-width: 0.1mm;
+
+    --card-text-bg: #231F20;
+    --card-text-fg: #FEFEFE;
+  }
+
+  .page {
+    margin: 5em 1em;
+    outline: var(--line-width) solid var(--line-color);
+    padding: 1em;
+  }
+  .card {
+    width: 63mm;
+    height: 88mm;
+    outline: 1px solid black;
+    padding: 5mm 0 10.5mm 0;
+  }
+}
+
+@media print {
+  :root {
+    --line-color: #000000;
+    --line-width: 0.1mm;
+
+    --card-text-fg: #231F20;
+    --card-text-bg: #FFFFFF;
+  }
+
+  @page {
+    size: a4 landscape;
+    margin: 7mm;
+  }
+
+  .page {
+    page-break-after: always;
+    break-after: page;
+  }
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5mm;
+}
+.card {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-number {
+  padding: 4mm;
+  font-size: 3.5mm;
+}
+.card-effect-text {
+  box-sizing: border-box;
+  width: 53mm;
+  background-color: var(--card-text-bg);
+  border: var(--line-width) solid var(--card-text-fg);
+  border-radius: 1.2mm;
+  padding: 1mm 2.3mm 1mm 2.3mm;
+  color: var(--card-text-fg);
+  font-size: 2.65mm;
+  line-height: 3.5mm;
+}
+.card-effect-text p {
+  margin: 0;
+}
+.card-effect-text em {
+  font-size: 92%;
+}
