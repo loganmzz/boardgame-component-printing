@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Boardgame Component Printing: Skytear Horde</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="../main.css">
+</head>
+<body>
+  <main>
+    <h1>Boardgame Component Printing: Skytear Horde</h1>
+    <p><a href="https://github.com/loganmzz/boardgame-component-printing/tree/main/skytear-horde">Sources</a></p>
+
+    <div>
+      <hr/>
+      <h2>Components:</h2>
+      <ul>
+        <li><a href="#baggi-pockets">Baggi pockets</a></li>
+      </ul>
+
+      <hr/>
+      <h2 id="baggi-pockets">Baggi pockets</h2>
+      <p>Files:</p>
+      <ul>
+        <li><a href="baggi-pockets-en-00-common.html"><span class="fi fi-us"></span> Common</a></li>
+        <li><a href="baggi-pockets-en-01-core.html"><span class="fi fi-us"></span> Core</a></li>
+        <li><a href="baggi-pockets-en-02-monoliths.html"><span class="fi fi-us"></span> Monoliths</a></li>
+        <li><a href="baggi-pockets-en-03-campaigns.html"><span class="fi fi-us"></span> Campaigns</a></li>
+      </ul>
+
+      <div class="instructions">
+        <h3><span class="fi fi-us"></span> Instructions</h3>
+        <p><em>Note&nbsp;: As card count in each deck may vary depending on owned content, adjust <strong>ALL <code>--card-count</code> variables</strong> accordingly.</em></p>
+        <p>
+          Print each page on one sheet.<br/>
+          Folding instructions are available there: <a href="https://www.youtube.com/watch?v=2_IyDrvHPIw">Youtube - Les ludistes origamistes - [EN] Tutorial #4 : Pocket card holders (2 techniques)</a>. Patterns contain folding marks.<br/>
+          Patterns can be customised using variables on top of CSS file:
+        </p>
+        <ul>
+          <li><code>--print-margin</code> (global)&nbsp;: print margin. I recommend a margin of 0 to limit to two cuts and keep two sides straight.</li>
+          <li><code>--line-width</code> (global)&nbsp;: line thickness of the patterns.</li>
+          <li><code>--line-color</code> (global)&nbsp;: line color of the patterns.</li>
+          <li><code>--card-thickness</code> (global)&nbsp;: thickness of a single card (measure thickness of around hundred cards for good accuracy).</li>
+          <li><code>--card-width</code> (global)&nbsp;: width of the deck.</li>
+
+          <li><code>--card-count</code> (deck)&nbsp;: number of cards in the deck. This is used to compute deck thickness.</li>
+        </ul>
+      </div>
+
+    </div>
+  </main>
+</body>
+</html>

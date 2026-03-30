@@ -1,0 +1,310 @@
+:root {
+  --print-margin: 0mm;
+  --line-width: 0.1mm;
+  --line-color: #DDDDDD;
+
+  --card-thickness: 0.56mm;
+  --card-width: 65mm;
+
+  --liothan-bg: #0085BF;
+  --liothan-fg: #FFFFFF;
+
+  --taulot-bg: #4C993D;
+  --taulot-fg: #FFFFFF;
+
+  --kurumo-bg: #BF1331;
+  --kurumo-fg: #FFFFFF;
+
+  --nupten-bg: #F6C21A;
+  --nupten-fg: #FFFFFF;
+
+  --horde-bg: #642669;
+  --horde-fg: #FFFFFF;
+}
+
+
+.deck-alliance-liothan {
+  --deck-color-bg: var(--liothan-bg);
+  --deck-color-fg: var(--liothan-fg);
+}
+.deck-alliance-taulot {
+  --deck-color-bg: var(--taulot-bg);
+  --deck-color-fg: var(--taulot-fg);
+}
+.deck-alliance-kurumo {
+  --deck-color-bg: var(--kurumo-bg);
+  --deck-color-fg: var(--kurumo-fg);
+}
+.deck-alliance-nupten {
+  --deck-color-bg: var(--nupten-bg);
+  --deck-color-fg: var(--nupten-fg);
+}
+.deck-horde {
+  --deck-color-bg: var(--horde-bg);
+  --deck-color-fg: var(--horde-fg);
+}
+
+/** Common **/
+.deck-outsiders {
+  --card-count: 39;
+  --deck-title: "Outsiders";
+  --deck-icon-url: url("./assets/00-common-horde-00-common-icon.png");
+}
+
+.deck-portals {
+  --card-count: 21;
+  --deck-title: "Minions / Portals";
+  --deck-icon-url: url("./assets/00-common-horde-00-common-icon.png");
+}
+
+.deck-scenarios {
+  --card-count: 24;
+  --deck-title: "Scenarios";
+  --deck-icon-url: url("./assets/00-common-horde-00-common-icon.png");
+}
+
+/** Core **/
+.deck-alliance-liothan-shapeshifters {
+  --card-count: 42;
+  --deck-title: "Liothan Shapeshifters";
+}
+
+.deck-alliance-taulot-followers {
+  --card-count: 42;
+  --deck-title: "Taulot Followers";
+}
+
+.deck-alliance-kurumo-warriors {
+  --card-count: 42;
+  --deck-title: "Kurumo Warriors";
+}
+
+.deck-alliance-nupten-illusionists {
+  --card-count: 42;
+  --deck-title: "Nupten Illusionists";
+}
+
+.deck-horde-renegade {
+  --card-count: 20;
+  --deck-title: "Renegade";
+  --deck-icon-url: url("./assets/01-core-horde-01-renegade-icon.png");
+}
+
+.deck-horde-undead {
+  --card-count: 24;
+  --deck-title: "Undead";
+  --deck-icon-url: url("./assets/01-core-horde-02-undead-icon.png");
+}
+
+.deck-horde-predator {
+  --card-count: 20;
+  --deck-title: "Predator";
+  --deck-icon-url: url("./assets/01-core-horde-03-predator-icon.png");
+}
+
+.deck-horde-nightmare {
+  --card-count: 20;
+  --deck-title: "Nightmare";
+  --deck-icon-url: url("./assets/01-core-horde-04-nightmare-icon.png");
+}
+
+/** Monoliths **/
+.deck-alliance-liothan-enforcers {
+  --card-count: 48;
+  --deck-title: "Liothan Enforcers";
+}
+
+.deck-alliance-taulot-custodians {
+  --card-count: 42;
+  --deck-title: "Taulot Custodians";
+}
+
+.deck-alliance-kurumo-artificers {
+  --card-count: 42;
+  --deck-title: "Kurumo Artificers";
+}
+
+.deck-alliance-nupten-diviners {
+  --card-count: 42;
+  --deck-title: "Nupten Diviners";
+}
+
+.deck-horde-monoliths {
+  --card-count: 29;
+  --deck-title: "Monoliths";
+  --deck-icon-url: url("./assets/02-monoliths-horde-01-monoliths-icon.png");
+}
+
+.deck-horde-sinklings {
+  --card-count: 29;
+  --deck-title: "Sinklings";
+  --deck-icon-url: url("./assets/02-monoliths-horde-02-sinklings-icon.png");
+}
+
+.deck-horde-slitherers {
+  --card-count: 35;
+  --deck-title: "Slitherers";
+  --deck-icon-url: url("./assets/02-monoliths-horde-03-slitherers-icon.png");
+}
+
+.deck-horde-brood {
+  --card-count: 36;
+  --deck-title: "Brood";
+  --deck-icon-url: url("./assets/02-monoliths-horde-04-brood-icon.png");
+}
+
+/** Campaigns **/
+.deck-alliance-liothan-zealots {
+  --card-count: 42;
+  --deck-title: "Liothan Zealots";
+}
+
+.deck-alliance-taulot-dwellers {
+  --card-count: 42;
+  --deck-title: "Taulot Dwellers";
+}
+
+.deck-alliance-kurumo-disciples {
+  --card-count: 42;
+  --deck-title: "Kurumo Disciples";
+}
+
+.deck-alliance-nupten-travelers {
+  --card-count: 42;
+  --deck-title: "Nupten Travelers";
+}
+
+.deck-horde-skybooter {
+  --card-count: 29;
+  --deck-title: "Skybooter";
+  --deck-icon-url: url("./assets/03-campaigns-horde-01-skybooter-icon.png");
+}
+
+.deck-horde-animerk {
+  --card-count: 28;
+  --deck-title: "Animerk";
+  --deck-icon-url: url("./assets/03-campaigns-horde-02-animerk-icon.png");
+}
+
+.deck-horde-scaleson {
+  --card-count: 41;
+  --deck-title: "Scaleson";
+  --deck-icon-url: url("./assets/03-campaigns-horde-03-scaleson-icon.png");
+}
+
+.deck-horde-faefolk {
+  --card-count: 29;
+  --deck-title: "Faefolk";
+  --deck-icon-url: url("./assets/03-campaigns-horde-04-faefolk-icon.png");
+}
+
+@media screen {
+  :root {
+    --line-color: #000000;
+  }
+}
+
+@media print {
+  @page {
+    size: a4 landscape;
+    margin: var(--print-margin);
+  }
+}
+
+.frame {
+  --deck-thickness: calc(var(--card-thickness) * var(--card-count));
+  --deck-width: var(--card-width);
+  display: grid;
+  grid-template-columns: var(--deck-width) var(--deck-width) var(--deck-width) var(--deck-width);
+  grid-template-rows: var(--deck-width) var(--deck-thickness) var(--deck-width);
+}
+
+div {
+  border-collapse: collapse;
+}
+.row-1, .row-2, .row-3 {
+  border-right: var(--line-width) dotted var(--line-color);
+  border-bottom: var(--line-width) dotted var(--line-color);
+}
+.row-1 {
+  border-top: var(--line-width) dotted var(--line-color);
+}
+.col-1 {
+  border-left: var(--line-width) dotted var(--line-color);
+}
+.col-5, .col-6 {
+  border: none;
+}
+.row-4, .row-5 {
+  border: none;
+}
+.row-4 {
+  background-color: #BF1331;
+  height: 100%;
+}
+.row-5 {
+  background-color: #0085BF;
+  border-right: var(--line-width) dotted var(--line-color);
+  height: 100%;
+}
+
+.row-1.col-4, .row-3.col-4 {
+  writing-mode: sideways-lr;
+}
+.row-1.col-4 {
+  text-align: center;
+  padding: 8mm 0mm 0mm 4mm;
+}
+.row-3.col-4 {
+  text-align: center;
+  padding: 0mm 0mm 8mm 4mm;
+}
+.row-1.col-4 .title, .row-3.col-4 .title {
+  display: inline-block;
+  color: var(--deck-color-fg);
+  background-color: var(--deck-color-bg);
+  font-size: 5mm;
+  border-radius: 25%;
+  padding: 2mm 1mm;
+}
+.row-1.col-4 .title::after, .row-3.col-4 .title::after {
+  content: var(--deck-title);
+}
+
+.deck-horde .row-1.col-4 .title .icon, .deck-horde .row-3.col-4 .title .icon {
+  content: var(--deck-icon-url);
+  vertical-align: middle;
+  height: 1.4em;
+  rotate: -90deg;
+}
+
+html, body, .page {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.page {
+  page-break-after: always;
+  break-after: page;
+  outline: none;
+}
+
+.diagonale-bottom {
+  background: linear-gradient(
+    to bottom right,
+    transparent calc(50% - var(--line-width)),
+    var(--line-color),
+    transparent calc(50% + var(--line-width))
+  );
+}
+
+.diagonale-top {
+  background: linear-gradient(
+    to top right,
+    transparent calc(50% - var(--line-width)),
+    var(--line-color),
+    transparent calc(50% + var(--line-width))
+  );
+}
