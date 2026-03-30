@@ -7,3 +7,4 @@ HTML-based layout for printing boardgame components
 
 * [Imperium](./imperium/README.md)
 * [Skytear Horde](./skytear-horde/README.md)
+* [Street Masters](./street-masters/README.md)
