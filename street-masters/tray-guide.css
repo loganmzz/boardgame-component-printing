@@ -1,0 +1,135 @@
+:root {
+  --print-margin: 5mm;
+
+  --line-width: 0.5mm;
+  --name-font-size: 2.9mm;
+  --faction-font-size: 2.25mm;
+  --grid-height: 75mm;
+  --grid-width: 160mm;
+}
+
+@media print {
+  @page {
+    size: a4 landscape;
+    margin: var(--print-margin);
+  }
+}
+
+html, body, .page {
+  height: 100%;
+  margin: 0;
+  border: none;
+}
+
+.page {
+  padding: var(--print-margin);
+  page-break-after: always;
+  break-after: page;
+  outline: none;
+  display: flex;
+  flex-direction: column;
+  row-gap: 5mm;
+}
+
+.tray {
+    height: var(--grid-height);
+    width: var(--grid-width);
+    font-size: var(--name-font-size);
+    display: grid;
+    grid-auto-rows: 1fr;
+}
+.tray > div {
+    border: var(--line-width) solid black;
+    padding: 1mm;
+    overflow: hidden;
+}
+.miniature--filler {}
+
+.faction {
+    font-style: italic;
+    font-size: var(--faction-font-size);
+}
+
+/*
+  ------------------------------------
+  SM I: Rise of the Kingdom - Tray #01
+  ------------------------------------
+*/
+.sm-i-rotk .tray.tray-01 {
+    grid-template-columns: repeat(9, 1fr);
+}
+/** SM I: RotK - Tray #01 - Row #01 **/
+.onyx-league--abolo {
+    grid-column: span 5;
+}
+.the-golden-dragons--wan-bo {
+    grid-column: span 3;
+}
+/** SM I: RotK - Tray #01 - Row #02 **/
+.the-brotherhood--drago {
+    grid-column: span 3;
+}
+.the-kingdom--mountain-general {
+    grid-column: span 3;
+}
+.onyx-league--veronica-pepper {
+    grid-column: span 3;
+}
+/** SM I: RotK - Tray #01 - Row #03 **/
+.the-cartel--lucille {
+    grid-column: span 3;
+}
+.fighter--ying-hua {}
+.fighter--mary-ann {}
+.fighter--natalia {}
+.fighter--isabella {}
+.the-nahualli--tlazolteotl {}
+.fighter--sera-quinn {}
+/** SM I: RotK - Tray #01 - Row #04 **/
+.the-cartel--juan {}
+.fighter--axel {}
+.fighter--brandon {}
+.fighter--zane {}
+.the-kingdom--jackal {}
+.the-kingdom--shadow {}
+.fighter--mr-apple {}
+.fighter--megan {}
+.fighter--project-x {}
+/** SM I: RotK - Tray #01 - Row #05 **/
+.the-kingdom--kemono {
+    grid-row: span 2;
+}
+.the-oni--shin-yokai {}
+.the-oni--yokai {}
+.fighter--chan-chan {}
+.fighter--tiger-azules {}
+.the-brotherhood--dmitri {}
+.fighter--max {}
+.fighter--clint {
+    grid-column: span 2;
+}
+/** SM I: RotK - Tray #01 - Row #06 **/
+.fighter--kyoryu {}
+.the-golden-dragons--ah-long {}
+.fighter--darius {}
+.fighter--rhys {}
+.fighter--gabriel {}
+.onyx-league--mack {}
+.fighter--hanzo {
+    grid-column: span 2;
+}
+
+/*
+  ------------------------------------
+  SM I: Rise of the Kingdom - Tray #02
+  ------------------------------------
+*/
+.sm-i-rotk .tray.tray-02 {
+    grid-template-columns: repeat(2, 1fr);
+}
+/** SM I: RotK - Tray #02 - Row #01 **/
+/** SM I: RotK - Tray #02 - Row #02 **/
+/** SM I: RotK - Tray #02 - Row #03 **/
+/** SM I: RotK - Tray #02 - Row #04 **/
+/** SM I: RotK - Tray #02 - Row #05 **/
+/** SM I: RotK - Tray #02 - Row #06 **/
