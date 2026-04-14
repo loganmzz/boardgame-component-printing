@@ -1,0 +1,23 @@
+@media print {
+  @page {
+    size: a4 landscape;
+    margin: 7mm;
+  }
+
+  .page {
+    page-break-after: always;
+    break-after: page;
+  }
+}
+
+body {
+  height: 400px;
+  width: 400px;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5mm;
+}
